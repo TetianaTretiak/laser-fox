@@ -1,0 +1,26 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.contact-map {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 200px;
+        overflow: hidden;
+}
+
+.contact-map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+}
