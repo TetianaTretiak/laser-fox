@@ -25,6 +25,10 @@ footer {
         height: 100% !important;
 }
 
-.navbar-fox{
-	background-color: #FFBB00;
+#navbar-fox{
+	background-color: #FFBB00;	
+}
+
+#navbar-fox a{
+	color: black;
 }
