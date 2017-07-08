@@ -26,9 +26,26 @@ footer {
 }
 
 #navbar-fox{
-	background-color: #FFBB00;	
+	background-color: #EC5F00;	
 }
 
 #navbar-fox a{
 	color: black;
+}
+
+#navbar-fox .logo{
+	height: 100%;
+}
+
+.navbar-brand{
+	height: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-toggle{
+	border: 1px solid black;
+}
+.img-responsive{
+	width: 100%;
 }
