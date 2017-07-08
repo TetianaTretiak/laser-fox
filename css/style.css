@@ -1,3 +1,13 @@
+@font-face {
+			font-family: "RalewayRegular";
+			src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+			src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+			url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
 body {
     padding-top: 100px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-color: #F3F3F2;
@@ -33,6 +43,7 @@ footer {
 
 #navbar-fox a{
 	color: black;
+	font-family: "RalewayRegular", sans-serif;
 }
 
 #navbar-fox .logo{
