@@ -1,5 +1,7 @@
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 100px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #F3F3F2;
+    font-family: 'Raleway', sans-serif;
 }
 
 .portfolio-item {
@@ -26,7 +28,7 @@ footer {
 }
 
 #navbar-fox{
-	background-color: #EC5F00;	
+	background-color: #F07B2B;	
 }
 
 #navbar-fox a{
@@ -45,6 +47,14 @@ footer {
 
 .navbar-toggle{
 	border: 1px solid black;
+}
+h1{
+	font-size: 24px;
+}
+.page-header{
+	/*padding-top: 20px;*/
+	padding-bottom: 0 !important;
+	/*margin: 0;*/
 }
 .img-responsive{
 	width: 100%;
