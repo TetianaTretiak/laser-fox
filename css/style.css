@@ -39,6 +39,11 @@ footer {
 	height: 100%;
 }
 
+#navbar-fox .icon-bar hr{
+	border-color: black;
+	margin-top: 2px;
+}
+
 .navbar-brand{
 	height: 100px;
 	padding-top: 10px;
@@ -47,6 +52,7 @@ footer {
 
 .navbar-toggle{
 	border: 1px solid black;
+	margin-top: 31px;
 }
 h1{
 	font-size: 24px;
@@ -59,3 +65,4 @@ h1{
 .img-responsive{
 	width: 100%;
 }
+
