@@ -31,6 +31,17 @@
 			font-weight: normal;
 	}
 
+@font-face {
+			font-family: "RalewayBold";
+			src: url("../fonts/RalewayBold/RalewayBold.eot");
+			src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+			url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
 /* fonts >>*/
 
 
@@ -58,6 +69,7 @@ h1{
 #navbar-fox a{
 	color: #181310;
 	font-family: "RalewayMedium", sans-serif;
+	font-weight: bold;
 
 }
 
@@ -91,7 +103,7 @@ h1{
 	margin: 0px -15px; 
 }
 
-.navbar-nav > li > a:active, .navbar-nav > li > a.active, .navbar-nav > li > a:hover, .navbar-nav > li > a:visited{
+#navbar-fox .navbar-nav-link:active, #navbar-fox .navbar-nav-link:active, #navbar-fox .navbar-nav-link:hover, #navbar-fox .navbar-nav-link:visited{
 	background-color: #FF9C59;
 }
 
@@ -116,8 +128,6 @@ h1{
 	width: 30px;	
 }
 
-
-
 /* header >> */
 
 /* << body */
@@ -134,7 +144,37 @@ h1{
 
 .portfolio-item {
     margin-bottom: 25px;
+    background-image: url("../img/default_service.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    min-height: 400px;
+    display: block;
 }
+
+.portfolio-item .textbox{
+ 	padding: 10px 20px;
+ 	background-color: rgba(255, 255, 255, 0.6);
+	position: absolute;
+    top: 40%;
+    vertical-align: middle;
+}
+
+.portfolio-item:hover .textbox{
+ 	background-color: rgba(236, 125, 49, 0.8);
+}
+
+.portfolio-item .textbox .service-name{
+	color: #181310;
+	font-weight: bold;
+	font-size: 36px;
+	font-family: sans-serif;
+}
+
+.portfolio-item:hover .textbox .service-name{
+ 	color: black;
+}
+
 
 /* body >>*/
 
@@ -166,10 +206,14 @@ footer {
     	padding-left: 25px;
     	padding-right: 25px;
 	}
+
+	.portfolio-item {
+    	min-height: 400px;
+	}
 }
 
  
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.social-device {
     	display: inline-block;
 	}
@@ -181,4 +225,24 @@ footer {
 	#navbar-fox .head-menu li a{
 		font-size: 14px;
 	} 
+
+	.portfolio-item {
+    	min-height: 300px;
+	}
+}
+
+@media (max-width: 400px){
+
+	.portfolio-item {
+    	min-height: 200px;
+	}
+
+	.portfolio-item .textbox{
+ 		padding: 10px;
+	}
+
+	.portfolio-item .textbox .service-name{
+		font-size: 24px;
+	}
+
 }
