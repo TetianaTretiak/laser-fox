@@ -56,7 +56,7 @@ h1{
 }
 
 #navbar-fox a{
-	color: black;
+	color: #181310;
 	font-family: "RalewayMedium", sans-serif;
 
 }
@@ -166,7 +166,6 @@ footer {
     	padding-left: 25px;
     	padding-right: 25px;
 	}
-
 }
 
  
@@ -178,4 +177,8 @@ footer {
 	.social-full-size{
 		display: none;
 	}
+
+	#navbar-fox .head-menu li a{
+		font-size: 14px;
+	} 
 }
