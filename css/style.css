@@ -55,7 +55,15 @@ body {
 }
 
 h1{
-	font-size: 24px;
+	font-size: 36px;
+	font-family: 'RalewayBold', sans-serif;
+    color: #181310;
+}
+
+hr{
+	border-top: 1px solid #181310;
+	margin-top: 0;
+	margin-bottom: 20px;
 }
 
 /* base styles >>*/
@@ -133,9 +141,8 @@ h1{
 /* << body */
 
 .page-header{
-	/*padding-top: 20px;*/
 	padding-bottom: 0 !important;
-	/*margin: 0;*/
+	margin: 20px 0;
 }
 
 .img-responsive{
@@ -232,6 +239,18 @@ footer {
 }
 
 @media (max-width: 400px){
+
+	h1{
+		font-size: 24px;
+	}
+
+	hr{
+		margin-bottom: 15px;
+	}
+
+	.page-header{
+		margin: 15px 0;
+	}
 
 	.portfolio-item {
     	min-height: 200px;
