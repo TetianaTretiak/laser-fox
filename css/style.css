@@ -111,7 +111,7 @@ hr{
 	margin: 0px -15px; 
 }
 
-#navbar-fox .navbar-nav-link:active, #navbar-fox .navbar-nav-link:active, #navbar-fox .navbar-nav-link:hover, #navbar-fox .navbar-nav-link:visited{
+#navbar-fox .navbar-nav-link:active, #navbar-fox .active, #navbar-fox .navbar-nav-link:hover, #navbar-fox .navbar-nav-link:visited{
 	background-color: #FF9C59;
 }
 
