@@ -1,0 +1,27 @@
+.service{
+	margin-bottom: 40px;
+}
+
+.service-pic img{
+	width: 100%;
+}
+
+.service p{
+	margin-bottom: 20px;
+}
+
+.service-price{
+	font-size: 16px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	color: #181310;
+	padding: 10px;
+	border: 2px solid #181310;
+
+}
+
+.service-price:hover{
+	color: #F3F3F2;
+	background-color: #181310; 
+	text-decoration: none;
+}
